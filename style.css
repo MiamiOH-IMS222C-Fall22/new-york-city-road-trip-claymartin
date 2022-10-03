@@ -5,6 +5,7 @@ h1 {
     border-color: black; 
     padding: 15px 10px 15px 10px;
     border-radius: 10px;
+    text-align: center;
 }
 
 h2 { 
@@ -13,7 +14,8 @@ h2 {
     background-color: black;
     padding: 15px 10px 15px 10px;
     margin: 5px 0px 5px 0px;
-     border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 h3 { 
@@ -22,7 +24,8 @@ h3 {
     background-color: black;
     padding: 15px 10px 15px 10px;
     margin: 5px 0px 5px 0px;
-     border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
 }
 
  p {
@@ -42,3 +45,4 @@ li {
     background-color: lightsteelblue; 
     border-radius: 10px; 
 }
+
