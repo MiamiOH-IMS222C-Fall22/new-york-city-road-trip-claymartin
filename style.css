@@ -46,3 +46,26 @@ li {
     border-radius: 10px; 
 }
 
+.travel-h1 {
+    color: green;
+    text-align: center;
+   border-style: solid; 
+    border-radius: 2px;
+
+}
+
+.see-h1 {
+
+    color: blue;
+    text-align: center; 
+    border-style: solid; 
+    border-radius: 2px;
+
+}
+
+.do-h1 {
+    text-align: center; 
+    color: red;
+    border-style: solid;
+     border-radius: 2px;
+}
