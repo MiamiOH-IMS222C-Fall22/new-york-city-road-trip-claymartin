@@ -1,5 +1,6 @@
 h1 {
     color:red;
+    margin: 10px 80px 10px 80px; 
     border-style: solid;
     border-width: 2px; 
     border-color: black; 
@@ -11,7 +12,7 @@ h1 {
 h2 { 
     border-style: solid;
     color:white; 
-    background-color: black;
+    background-color: palevioletred; 
     padding: 15px 10px 15px 10px;
     margin: 5px 0px 5px 0px;
     border-radius: 10px;
@@ -29,43 +30,32 @@ h3 {
 }
 
  p {
-    border-style: solid; 
-    border-color: black;
+   
     padding: 5px 5px 5px 5px; 
     font-size: 1.2em; 
     margin: 5px 20px 5px 20px; 
-    background-color:lightgray;
-    border-radius: 10px;
+    
  }
 
 li {
-    border-style:double;
+    
     padding: 5px 5px 5px 5px; 
     margin: 5px 20px 5px 20px; 
     background-color: lightsteelblue; 
     border-radius: 10px; 
 }
 
-.travel-h1 {
-    color: green;
-    text-align: center;
+
+.do {
+
+    margin: 10px 80px 10px 80px;
    border-style: solid; 
-    border-radius: 2px;
-
+   border-radius: 10px; 
+   padding: 10px 5px 10px 5px; 
+   border-color:violet; 
 }
 
-.see-h1 {
 
-    color: blue;
-    text-align: center; 
-    border-style: solid; 
-    border-radius: 2px;
-
-}
-
-.do-h1 {
-    text-align: center; 
-    color: red;
-    border-style: solid;
-     border-radius: 2px;
+img {
+    
 }
