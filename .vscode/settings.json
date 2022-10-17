@@ -17,5 +17,6 @@
     "terminal.integrated.environmentChangesIndicator": "off",
     "githubPullRequests.ignoredPullRequestBranches": [
         "main"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
