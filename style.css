@@ -1,0 +1,179 @@
+h1 {
+    color:red;
+    margin: 10px 80px 10px 80px; 
+    border-style: solid;
+    border-width: 2px; 
+    border-color: violet; 
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightgray;
+    font-family: 'Aboreto';font-size: 22px;
+}
+
+
+h2 { 
+    border-style: solid;
+    color:white; 
+    background-color: rgb(127, 195, 255); 
+    padding: 15px 10px 15px 10px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+h3 { 
+    border-style: solid;
+    color:white; 
+    background-color: black;
+    padding: 15px 10px 15px 10px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ p {
+   
+    padding: 5px 5px 5px 5px; 
+    font-size: 1.2em; 
+    margin: 5px 20px 5px 20px; 
+    
+ }
+
+li {
+    
+    padding: 5px 5px 5px 5px; 
+    margin: 5px 20px 5px 20px; 
+    background-color: rgb(127, 195, 255); 
+    border-radius: 10px; 
+}
+
+/*--  div class text  --*/
+.text {
+
+    margin: 10px 80px 10px 80px;
+   border-style: solid; 
+   border-radius: 10px; 
+   padding: 10px 5px 10px 5px; 
+   border-color:violet; 
+    background-color: lightgray;
+
+}
+
+/*--  code to make images centered --*/
+.images {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.container {
+   max-width: 960px;
+   margin: 1em auto 1em auto;
+   }
+
+/*--  embed for map  --*/
+ .iframe.map  {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px; 
+    background-color: violet;
+}
+
+.iframe.map {
+    display: block;
+    margin: 1em auto;
+}
+
+/*--  embed for song --*/
+.iframe.song  {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px; 
+    background-color: violet;
+}
+
+.iframe.song {
+    display: block;
+   margin: 1em auto;
+}
+
+/*--  code for navigation bar on index page. --*/
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+nav ul li {
+  flex:1;
+  list-style-type: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.75em;
+  margin: 0.25em;  
+  background-color: rgb(127, 195, 255);
+  color: white;  
+  text-align: center;
+  text-decoration: none;  
+  
+}
+
+nav ul li a:hover {
+  background-color: darkgray;
+  border-radius: 10px; 
+ 
+}
+
+@media screen and (max-width: 650px) {
+  nav ul {
+      flex-direction: column;
+      padding: 0 20px;
+      }
+  nav ul li {
+    margin:10px 0;
+    }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: lightgray;
+  color: #444;
+  cursor: pointer;
+  width: 89%;
+  text-align: center;
+  margin: 10px 80px 10px 80px;
+  border-style: solid; 
+  border-radius: 10px; 
+  padding: 10px 5px 10px 5px; 
+   border-color:violet; 
+  transition: 0.4s;
+  border-style: solid;
+  color:white; 
+  background-color: rgb(127, 195, 255); 
+   font-size: 25px; 
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: lightgray;
+  display: none;
+  overflow: hidden;
+  margin: 10px 80px 10px 80px;
+   border-style: solid; 
+   border-radius: 10px; 
+   padding: 10px 5px 10px 5px; 
+   border-color:violet; 
+}
